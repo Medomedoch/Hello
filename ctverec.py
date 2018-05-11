@@ -32,7 +32,7 @@ def main ():
 	if tvar not in povolene:
 		print ("ty jsi ale voresprut!")
 		return
-	velikost = input("A jak velký?\n")
+	velikost = input("A jak velky?\n")
 	velikost = int(velikost)
 		
 
