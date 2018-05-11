@@ -1,5 +1,7 @@
 mesic = input("V jakém měsíci jsi se narodil?\n")
-if mesic == "leden" or mesic == "duben" or mesic == "srpen":
+ok_mesice = ["leden", "duben", "srpen"]
+if mesic in ok_mesice:
 	print("Dobre ty!")
 else:
 	print ("Tak to bych nechtěl..")
+
